@@ -38,15 +38,16 @@ namespace Num_3
             // 
             this.textBox.Enabled = false;
             this.textBox.Location = new System.Drawing.Point(12, 12);
+            this.textBox.Multiline = true;
             this.textBox.Name = "textBox";
             this.textBox.ReadOnly = true;
-            this.textBox.Size = new System.Drawing.Size(269, 20);
+            this.textBox.Size = new System.Drawing.Size(269, 116);
             this.textBox.TabIndex = 0;
             // 
             // LoadButton
             // 
             this.LoadButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.LoadButton.Location = new System.Drawing.Point(12, 47);
+            this.LoadButton.Location = new System.Drawing.Point(12, 147);
             this.LoadButton.Name = "LoadButton";
             this.LoadButton.Size = new System.Drawing.Size(133, 50);
             this.LoadButton.TabIndex = 1;
@@ -58,7 +59,7 @@ namespace Num_3
             // 
             this.EditButton.Enabled = false;
             this.EditButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.EditButton.Location = new System.Drawing.Point(151, 47);
+            this.EditButton.Location = new System.Drawing.Point(155, 147);
             this.EditButton.Name = "EditButton";
             this.EditButton.Size = new System.Drawing.Size(130, 50);
             this.EditButton.TabIndex = 2;
@@ -70,7 +71,7 @@ namespace Num_3
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(297, 110);
+            this.ClientSize = new System.Drawing.Size(297, 209);
             this.Controls.Add(this.EditButton);
             this.Controls.Add(this.LoadButton);
             this.Controls.Add(this.textBox);

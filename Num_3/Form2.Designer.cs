@@ -37,14 +37,15 @@ namespace Num_3
             // textBox
             // 
             this.textBox.Location = new System.Drawing.Point(12, 12);
+            this.textBox.Multiline = true;
             this.textBox.Name = "textBox";
-            this.textBox.Size = new System.Drawing.Size(266, 20);
+            this.textBox.Size = new System.Drawing.Size(266, 118);
             this.textBox.TabIndex = 0;
             // 
             // SaveButton
             // 
             this.SaveButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.SaveButton.Location = new System.Drawing.Point(12, 50);
+            this.SaveButton.Location = new System.Drawing.Point(12, 153);
             this.SaveButton.Name = "SaveButton";
             this.SaveButton.Size = new System.Drawing.Size(129, 60);
             this.SaveButton.TabIndex = 1;
@@ -55,7 +56,7 @@ namespace Num_3
             // CanselButton
             // 
             this.CanselButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.CanselButton.Location = new System.Drawing.Point(147, 50);
+            this.CanselButton.Location = new System.Drawing.Point(150, 153);
             this.CanselButton.Name = "CanselButton";
             this.CanselButton.Size = new System.Drawing.Size(131, 60);
             this.CanselButton.TabIndex = 2;
@@ -67,7 +68,7 @@ namespace Num_3
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(290, 123);
+            this.ClientSize = new System.Drawing.Size(293, 225);
             this.Controls.Add(this.CanselButton);
             this.Controls.Add(this.SaveButton);
             this.Controls.Add(this.textBox);
